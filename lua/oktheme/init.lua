@@ -92,6 +92,8 @@ function M.setup()
 
 	-- snacks
 	vim.api.nvim_set_hl(0, "SnacksPickerCursorLine", { link = "NONE" })
+	vim.api.nvim_set_hl(0, "SnacksIndent", { ctermfg = 0, fg = black })
+	vim.api.nvim_set_hl(0, "SnacksIndentScope", { ctermfg = 7, fg = white })
 end
 
 return M
