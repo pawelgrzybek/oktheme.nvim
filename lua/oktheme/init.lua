@@ -90,6 +90,9 @@ function M.setup()
 
 	vim.api.nvim_set_hl(0, "Folded", { ctermfg = 13, fg = magentaLight })
 
+	vim.api.nvim_set_hl(0, "TabLine", { ctermfg = 8, ctermbg = "NONE" })
+	vim.api.nvim_set_hl(0, "TabLineSel", { ctermfg = 15, ctermbg = "NONE", bold = true })
+
 	-- snacks
 	vim.api.nvim_set_hl(0, "SnacksPickerCursorLine", { link = "NONE" })
 	vim.api.nvim_set_hl(0, "SnacksIndent", { ctermfg = 0, fg = black })
