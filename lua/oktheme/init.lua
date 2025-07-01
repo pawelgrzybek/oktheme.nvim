@@ -55,6 +55,7 @@ function M.setup()
 	vim.api.nvim_set_hl(0, "CursorLine", { ctermbg = 0, bg = black })
 	vim.api.nvim_set_hl(0, "CursorColumn", { ctermbg = 0, bg = black })
 	vim.api.nvim_set_hl(0, "ColorColumn", { ctermbg = 0, bg = black })
+	vim.api.nvim_set_hl(0, "SpecialKey", { ctermfg = 8, fg = blackLight })
 
 	-- popup menu
 	vim.api.nvim_set_hl(0, "Pmenu", { ctermbg = "NONE", bg = "NONE" })
